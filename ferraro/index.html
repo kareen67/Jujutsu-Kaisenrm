@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pag principal</title>
+    <link rel="stylesheet" href="css/estructura.css">
+    <link rel="stylesheet" href="css/carrusel.css">
+
+
+    <!-- bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="js/tarjeta.js"></script>
+    <script src="js/boton.js"></script>
+
+    <!-- Romi: hice la pag y el responsive de index. galeria. nosotros. personajes. -->
+    <!-- Milagros : hizo la pag sin responsive "contactos" y el footer -->
+
+</head>
+
+<body>
+    <header class="encabezado">
+        <img src="img/logo (2).png" alt="logo" class="logo">
+        <nav class="menu">
+            <a href="">HOME</a>
+            <a href="pages/nosotros.html">NOSOTROS</a>
+            <a href="pages/galeria.html">GALERIA</a>
+            <a href="pages/personajes.html">PERSONAJES</a>
+            <a href="pages/contactos.html">CONTACTOS</a>
+        </nav>
+    </header>
+
+    
+
+    <main  class="cuerpo-inicio">
+        <!-- Carrusel -->
+    <section id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!-- PORTADA -->
+                <div class="presentaciones">
+                    <div class="presentacion">
+                        <h1 class="anim1">Jujutsu Kaisen</h1>
+                        <p class="anim1"> La historia gira en torno al estudiante Yūji Itadori, quien se une a una
+                            organización secreta de
+                            hechiceros para matar a una poderosa maldición llamada Ryōmen Sukuna tras convertirse en su
+                            anfitrión.</p>
+                    </div>
+                    <img src="img/pjpresentacion/portadaaa.png" class="d-block w-100" id="animimg1" alt="...">
+                </div>
+
+            </div>
+            <div class="carousel-item">
+                <!-- SUKUNA -->
+                <div class="presentaciones">
+                    <img src="img/pjpresentacion/SuKunaa1.png" class="d-block w-100" id="imgLeft"
+                        alt="Imagen Izquierda">
+                    <!-- Cont central (Texto) -->
+                    <div class="presentacion">
+                        <h1 class="anim2">Sukuna</h1>
+                        <p class="anim2">“
+                            Después de todo, tengo una deuda contigo. Cuando haga mío el cuerpo de este niño... ¡Serás
+                            el primero al que mate!
+
+                            ”</p>
+                    </div>
+                    <img src="img/pjpresentacion/sukuna2-removebg-preview.png" class="d-block w-100" id="imgRight"
+                        alt="Imagen Derecha">
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <!-- GOJOO -->
+                <div class="presentaciones">
+                    <div class="presentacion">
+                        <h1 class="anim">Satoru Gojo</h1>
+                        <p class="anim">
+                            “ De verdad, lo lamento. No estoy enojado, no odio a nadie. Todo lo que estoy sintiendo en
+                            estos momentos es placer por el mundo. A través del cielo y la tierra, soy el único
+                            honrado.”
+                        </p>
+                    </div>
+                    <img src="img/pjpresentacion/gojoooooooooooooooo.png" class="d-block w-100" id="animimg" alt="...">
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <!-- ITADORI -->
+                <div class="presentaciones">
+                    <div class="presentacion">
+                        <h1 class="anim">Yuji Itadori</h1>
+                        <p class="anim">
+                            “Lo admito, soy como tú. Yo quería negar lo que eres. Intentaba convencerme de que estabas
+                            equivocado. Pero ahora es distinto. Simplemente voy a matarte. Incluso sí vuelves a nacer
+                            como otra maldición... te mataré. No importa si cambias de forma, o si cambias tu nombre. Te
+                            mataré cada vez que te encuentre. ”
+                        </p>
+                    </div>
+                    <img src="img/pjpresentacion/ITADORI.png" class="d-block w-100" id="animimg" alt="...">
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <!-- nobara -->
+                <div class="presentaciones">
+                    <div class="presentacion">
+                        <h1 class="anim">Nobara Kugisaki</h1>
+                        <p class="anim">
+                            “¿En algún momento se han detenido a considerar a la persona detrás de la maldición a la que
+                            condenan? ¿Por qué tiene que importar sí las cosas son perfectas o sí algo es injusto?
+                            ¿Crees que la vida es solo un trabajo?”
+                        </p>
+                    </div>
+                    <img src="img/pjpresentacion/NOBARAA.png" class="d-block w-100" id="animimg" alt="...">
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <!-- MEGUMI -->
+                <div class="presentaciones">
+                    <div class="presentacion">
+                        <h1 class="anim">Megumi Fushiguro</h1>
+                        <p class="anim">
+                            “La única cosa justa sobre la vida es lo injusta que es para todos. Los chamanes no son más
+                            que un engranaje en esta retribución. Si solo más gente buena pudiera recibir justicia… voy
+                            a salvar a otros, incluso si eso es injusto. [...] Creo que eso está bien, después de todo,
+                            no soy un héroe, solo soy un chamán de jujutsu.”
+                        </p>
+                    </div>
+                    <img src="img/pjpresentacion/MEGUMIII.png" class="d-block w-100" id="animimg" alt="...">
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </section>
+        <section>
+            <div class="tarjeta-descripcion">
+                <img src="img/pjpresentacion/itadoir-des.png" alt="">
+                <article>
+                    <h1 class="tt">JUJUTSU KAISEN</h1>
+                    <p class="des">
+                        Jujutsu Kaisen es una serie llena de acción y horror sobrenatural. Sigue a Yuji Itadori, un
+                        estudiante que obtiene poderes oscuros al consumir un objeto maldito. Bajo la tutela de su
+                        maestro, Satoru Gojo, Yuji lucha contra maldiciones y espíritus aterradores en una batalla
+                        intensa por la supervivencia de la humanidad.
+                    </p>
+                    <div>
+                        <button id="btnShow" class="btn-primary" onclick="showhide()">
+                            Más información
+                        </button>
+                    </div>
+                </article>
+            </div>
+
+            <div class="tarjetaadicional" id="autor" style="display: none;">
+                <article>
+                    <h1 class=>Autor</h1>
+                    <p>
+                        Gege Akutami es el creador de Jujutsu Kaisen, un popular manga que debutó en 2018 en Weekly
+                        Shōnen Jump. De identidad reservada, Akutami se inspira en obras como Bleach y Naruto, y su
+                        estilo combina acción y temas oscuros que han cautivado a los fans.
+                    </p>
+                </article>
+                <img src="img/pjpresentacion/autor.png" alt="">
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    
+    <h1 class="boton" aling="right"> <a href="index.html"> volver</a></h1>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 JUJUTSU KAISEN. Todos los derechos reservados.</p>
+        <ul>
+            <li><a href="#">Política de privacidad</a></li>
+            <li><a href="#">Términos de servicio</a></li>
+        </ul>
+    </footer>
+
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

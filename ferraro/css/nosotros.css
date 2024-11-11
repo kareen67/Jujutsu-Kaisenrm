@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji:wght@400;700&display=swap');
+
+.cuerpo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    flex-wrap: wrap;
+    gap: 40px;
+
+}
+
+.tarjeta-descripcion {
+
+    margin: 20px;
+    width: 900px;
+    height: auto;
+    background: rgb(160, 99, 99);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    text-align: left;
+
+    font-family: "Skranji", system-ui;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.tarjeta-descripcion img {
+    width: 50%;
+    height: 100%;
+}
+
+.fot:hover {
+    cursor: pointer;
+    filter: drop-shadow(-10px 0px 0px rgb(255, 255, 255));
+    transition: 1s;
+}
+
+article h1 {
+    padding-top: 30px;
+}
+
+article p {
+    padding-top: 15px;
+    font-size: 23px;
+    color: rgb(172, 162, 162);
+}
+
+article {
+    padding: 10px;
+}
+
+.redes a img {
+    width: 70px;
+    height: 70px;
+
+}
+
+@media (max-width: 732px) {  
+
+    .tarjeta-descripcion {  
+        flex-direction: column; 
+        align-items: center; 
+        width: 90%; 
+        padding-bottom: 30px;
+    }  
+
+    .tarjeta-descripcion img {  
+        width: 70%;  
+    }  
+
+    .redes a img {  
+        width: 50px;   
+        height: 50px;  
+    }  
+
+    article h1 {  
+        font-size: 25px; 
+    }  
+
+    article p {  
+        font-size: 20px; 
+    }  
+}  
+
